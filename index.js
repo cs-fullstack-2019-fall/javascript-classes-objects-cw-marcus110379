@@ -50,24 +50,24 @@
 //
 // myDinner.printProps();
 
-// class GitHubRepository {
-//     constructor(userName, fileName, descriptionOfRepository, code){
-//        this.userName = userName;
-//        this.fileName = fileName;
-//        this.descriptionOfRepository = descriptionOfRepository;
-//        this.code = code;
-//     }
-//     printProps(){
-//         console.log(this.userName);
-//          console.log(this.fileName);
-//        console.log(this.descriptionOfRepository);
-//         console.log(this.code);
-//
-//
-//     }
-// }
-//  let hub = new GitHubRepository( "marcus", "work", "newRepos", " function()");
-// hub.printProps();
+class GitHubRepository {
+    constructor(userName, fileName, descriptionOfRepository, code){
+       this.userName = userName;
+       this.fileName = fileName;
+       this.descriptionOfRepository = descriptionOfRepository;
+       this.code = code;
+    }
+    printProps(){
+        console.log(this.userName);
+         console.log(this.fileName);
+       console.log(this.descriptionOfRepository);
+        console.log(this.code);
+
+
+    }
+}
+ let hub = new GitHubRepository( "marcus", "work", "newRepos", " function()");
+hub.printProps();
 // ## Problem 2:
 // Create a Movie class with the following properties: movieName, rating, and yearReleased. Create a method to change the rating and another one to change the yearReleased properties. Create an object of the class and use the two methods you created.
 
